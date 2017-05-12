@@ -1,0 +1,19 @@
+.Column {
+    width: 100%;
+
+    @media all and (min-width: 768px) {
+        width: 48%;
+    }
+
+    @media all and (min-width: 1024px) {
+        width: 24%;
+    }
+
+    &-name {
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+}
